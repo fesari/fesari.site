@@ -30,6 +30,20 @@ See more at [the project GitHub](https://github.com/fesari/enable)!
 <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
   <img src="/library.jpg" alt="Library of Exercises" style="max-height: 400px; border-radius: 8px;" /> 
   <img src="/create.jpg" width="220" alt="Create Exercise" style="margin: 10px;" />
+  <img src="/enable-connections.png" alt="Enable Connections" style="max-height: 400px; border-radius: 8px;" />
+</div>
+
+---
+
+## HTTP Proxy Server
+> Tech used: Python, Socket Programming, Multithreading, LRU Cache
+
+A fully functional HTTP/HTTPS proxy server built from scratch using raw TCP socket programming. Implements a custom HTTP parser supporting absolute, authority, and origin request forms (RFC 7230), HTTPS tunneling via the CONNECT method with bidirectional relay using select(), and a thread-safe LRU cache with configurable max object size and eviction policy. Stress-tested under 25 concurrent threads with a 100% success rate across 250 requests.
+
+See more at [the project GitHub](https://github.com/fesari/http-proxy)!
+
+<div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+  <img src="/proxy.png" alt="HTTP Proxy Server" style="max-width: 100%; border-radius: 8px;" />
 </div>
 
 ---

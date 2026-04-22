@@ -96,10 +96,6 @@ pagination.pagerSize = 5
           identifier = "projects"
           name = "projects"
           url = "/projects"
-	[[languages.en.menu.main]]
-	  identifier = "blogs"
-	  name = "blogs"
-	  url = "/posts"
 
 [module]
   # In case you would like to make changes to the theme and keep it locally in you repository,
